@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../assest/css/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body style="background-color: black;">
+
+    <!-- Heading -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="..//assest/Images/logo1.jpg">
+                <title>M</title>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.Html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BIOGRAPHY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+
+    <div class="video-container">
+        <video autoplay muted loop style="width: -webkit-fill-available; height: auto;" id="video">
+            <source src="..//assest/Images/14498416-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+
+        <div class="video-text">
+           <div class="H1">
+                 Creative Designer<br>
+                 & Developer.
+           </div>
+
+           <div class="H2">
+            Hi, I'm Developer. A Passionate UI/UX Designer<br> and Front End
+            Developer based.
+           </div>
+
+           <div class="H3">
+            <button> See My Works </button>
+           </div>
+
+        </div>
+
+    </div>
+
+    <!-- Slide -->
+    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Card 1 -->
+    <div class="carousel-item active">
+      <div class="card1" style="width: 55rem; margin:auto;">
+        <img src="../assest/Images/slide1.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="background-color:black; color:white;">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">I am a passionate learner, currently exploring web development and design.<br>  
+I enjoy building creative projects and improving my skills every day.</p>
+          <a href="#" class="btn btn-black text-primary"><u>Click Here</u></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="carousel-item">
+      <div class="card1"  style="width: 55rem; margin:auto;">
+        <img src="../assest/Images/slide4.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="background-color:black; color:white;">
+          <h5 class="card-title">Skills</h5>
+          <p class="card-text">HTML, CSS, JavaScript, Bootstrap, and basic knowledge of design tools.<br>
+Always eager to learn new technologies and improve coding abilities.</p>
+          <a href="#" class="btn btn-black text-primary"><u>Click Here</u></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="carousel-item">
+      <div class="card1" style="width: 55rem; margin:auto;">
+        <img src="../assest/Images/slide5.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="background-color:black; color:white;">
+          <h5 class="card-title">Contact</h5>
+          <p class="card-text">Feel free to reach out for collaboration, projects, or just to say hello.<br>  
+Email: youremail@example.com | Phone: +91 XXXXX XXXXX</p>
+          <a href="#" class="btn btn-black text-primary"><u>Click Here</u></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- About -->
+
+<div class="about1" style="display: flex;">
+
+    <div class="about-text">
+        <div class="A1">
+            About Me
+        </div>
+
+        <div class="A2">
+            I’m Mahesh, a passionate frontend developer in training with a strong interest in building responsive and modern websites. I enjoy solving design challenges, experimenting with new technologies, and continuously improving my skills to grow as a developer.
+           <br><br><br> I enjoy solving design challenges, experimenting with new tools, and continuously improving my skills. My goal is to grow into a skilled developer who can build engaging digital experiences and contribute to exciting projects.
+        </div>
+
+        <button><b>See More</b></button>
+    </div>
+
+    <div class="about-image">
+        <img src="../assest/Images/pngwing.com.png">
+    </div>
+</div>
+
+<!---Skills-->
+<br><br><br><br>
+<div class="skills" style="display: flex;">
+  <div class="skills-image">
+      <img src="../assest/Images/rfam8ajvj888u0q46j0fe424iu.png">
+  </div>
+
+  <div class="skills-text">
+     <div class="B1">
+          Skills
+     </div>
+
+     <div class="B2">
+      I have a strong foundation in frontend development, with knowledge of HTML5, CSS3, JavaScript, and Bootstrap for building responsive and user-friendly websites. I enjoy designing clean layouts and making sure that websites look good on all devices.<br><br>
+
+Along with coding, I use tools like Canva and Figma for creating simple UI/UX designs, banners, and creative assets that improve the overall look and feel of a project. I also have basic experience with Git and GitHub, which helps me manage code and collaborate effectively.<br><br>
+
+Beyond technical skills, I focus on qualities like problem-solving, creativity, adaptability, and teamwork, which are equally important in web development. I’m always eager to learn new technologies and keep improving my skills to become a well-rounded developer.<br><br>
+     </div>
+
+       <button><b>See More</b></button>
+  </div>
+</div>
+
+<!-- Contact -->
+
+<br> <br> <br>
+<div class="contact" style="display: flex;">
+  <div class="contact-left">
+    <p>📩 <u>Contact Me</u></p>
+  </div>
+
+  <div class="contact-right">
+       I’d love to connect with you! Whether it’s about collaboration, projects, or opportunities, feel free <br>to reach out.<br>
+
+<b style="color: rgb(37, 34, 34);">Email:</b> XXXXX@example.com<br>
+
+<b style="color: rgb(37, 34, 34);">Phone: </b>+91 XXXXX-XXXXX<br>
+<b style="color: rgb(37, 34, 34);">Location: </b> India
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+    <!-- Footer -->
+<hr>
+     <footer>
+        <div class="footer-content">
+            <h3>Foolish Developer</h3>
+            <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+              </div>
+
+    </footer>
+
+<br><br>
+    <footer class="footer1">
+  <div class="footer-content1" style="display: flex;">
+    <p>© 2025 Mahesh | All Rights Reserved</p> &nbsp;| &nbsp;
+    <p>Made with Heart by Me</p>
+&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
+      <a href="mailto:mahesh@example.com">Email</a>
+    </div>
+  </div>
+</footer1>
+
+<!-- -------------------------------------------------------------------------> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
